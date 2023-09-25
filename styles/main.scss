@@ -41,36 +41,3 @@ h1 {
     }
   }
 }
-
-
-
-
-
-
-
-// @include tablet {
-//   .gallery {
-//     flex-direction: row;
-//     flex-wrap: wrap;
-//     justify-content: space-evenly;
-//     align-content: space-evenly;
-//     &__item {
-//       width: 40%;
-//       margin: 3vw 0;
-//       background: lightgreen;
-//     }
-//   }
-// }
-
-
-
-
-@include desktop {
-  .gallery {
-    &__item {
-      width: 30%;
-      margin: 1.25vw 0;
-      background: lightpink;
-    }
-  }
-}
